@@ -1,0 +1,3 @@
+INSERT INTO users (id, password, username, email, first_name, last_name, role) VALUES ('2b9c41b7-03df-4876-bc23-1691d0f64706', '$2a$04$A4m2YWOzy6/wvyBuZyyUEuYCXKI8eHTHtLvrKHdozI0NKr5HoDe42', 'admin', 'admin@ad.min', 'admin', 'admin', 'ADMIN');
+INSERT INTO posts (id, title, content, user_id) VALUES ('3842027e-e781-4c73-98a7-24994116e145', 'admin_post_title', 'admin_post_content', '2b9c41b7-03df-4876-bc23-1691d0f64706');
+INSERT INTO comments (id, content, post_id, user_id) VALUES ('3842027e-e781-4c73-98a7-24994116e145', 'admin_post_comment', '3842027e-e781-4c73-98a7-24994116e145', '2b9c41b7-03df-4876-bc23-1691d0f64706');
